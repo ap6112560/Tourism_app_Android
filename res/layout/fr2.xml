@@ -1,0 +1,60 @@
+	<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:id="@+id/drawer_design_support_layout"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	
+	<android.support.design.widget.CoordinatorLayout
+	android:id="@+id/rootLayout"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	app:expandedTitleMarginStart="60dp">
+	
+	<android.support.design.widget.AppBarLayout
+	android:layout_width="match_parent"
+	android:layout_height="255dp"
+	android:background="@drawable/goa"
+	android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+	
+	 <android.support.design.widget.CollapsingToolbarLayout
+	android:id="@+id/collapsing_toolbar_layout"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	app:layout_scrollFlags="scroll|exitUntilCollapsed">
+	 
+	<android.support.v7.widget.Toolbar
+	android:id="@+id/toolbar"
+	android:layout_width="match_parent"
+	android:layout_height="?attr/actionBarSize"
+	android:minHeight="?attr/actionBarSize"
+	app:layout_collapseMode="pin"
+	app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+	app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+	
+	</android.support.design.widget.CollapsingToolbarLayout>
+	
+	</android.support.design.widget.AppBarLayout>
+	
+	<android.support.v4.widget.NestedScrollView
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:fillViewport="true"
+	app:layout_behavior="@string/appbar_scrolling_view_behavior">
+	
+	<LinearLayout
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	
+	<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="26dp"
+	android:text="Goa is definitely the best tourist place for India. The pearl of the east, Goa is known for its Gothic churches, crumbling forts, palm-fringed beaches, coconut groves, ferry rides, bubbly folk music… the list is endless! With its 131-km-long coastline, Goa is an important locale in every tourist's itinerary. Sun, sand and sea being the major attractions, Goa trip is a perfect heaven for the ones who need and want relaxation"
+	android:textColor="#666" />
+	
+	</LinearLayout>
+	</android.support.v4.widget.NestedScrollView>
+	</android.support.design.widget.CoordinatorLayout>
+	
+	</android.support.v4.widget.DrawerLayout>

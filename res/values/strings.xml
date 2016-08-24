@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+    <string name="app_name">Touro</string>
+    <string name="action_settings">Settings</string>
+    <string name="lightning">Ankit Prasad-9874243130</string>
+    <string name="color_baloons">Suraj Shaw-8274989671</string>
+    <string name="natural_wall">Srabani Santra-8759427030</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hello">Hello</string>
+	<string name="Nm">Name</string>
+	<string name="sex">Sex</string>
+	<string name="occupation">Occupation</string>
+	<string name="residence">Residence</string>
+    <string name="mobile">Mobile Number</string>
+    <string name="req">Tourist Destination</string>
+    <string name="oth">Your Location</string>
+    <string name="facebook_app_id">871236572995125</string>
+    <string name="saurav">Saurav Barnwal</string>
+    <string-array name="checks">
+        <item></item>
+        <item>Kolkata</item>
+        <item>Delhi</item>
+        <item>Mumbai</item>
+        <item>Dhanbad</item>
+        <item>Patna</item>
+   </string-array>
+    <string name="email">Email</string>
+    <string name="fb">Login</string>
+    <string name="fb1">Logout</string>
+    <dimen name="count">10dp</dimen>
+	<string name="image">image</string>
+    <string name="desc">This app provides the tourists with guidance and information they need anytime and anywhere</string>
+    <string name="italic">TOURO</string>
+    <string name="duplicate">FIND DESTINATION</string>
+    <string name="schedule">EXPLORE</string>
+    <string name="delete">VISIT</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="location">Location</string>
+    <string name="slideshow">Slideshow</string>
+    <string name="video">Video</string>
+	<string name="updates">Check For Updates</string>
+    <string-array name="countries">
+        <item>Goa</item>
+        <item>Himachal Pradesh</item>
+        <item>Ladakh</item>
+        <item>kerala</item>
+        <item>Darjeeling</item>
+        <item>Form</item>
+        <item>Location</item>
+    </string-array>
+<string-array name="othreq">
+        <item>Goa</item>
+        <item>Himachal Pradesh</item>
+        <item>Ladakh</item>
+        <item>kerala</item>
+        <item>Darjeeling</item>
+</string-array>
+    <string name="title_activity_splash">Splash</string>
+    <string name="na">FirstName LastName</string>
+    <string name="no">9999999999</string>
+    <string name="mail">moments_kol@gmail.com</string>
+
+</resources>

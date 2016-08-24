@@ -1,0 +1,60 @@
+	<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:id="@+id/drawer_design_support_layout"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	
+	<android.support.design.widget.CoordinatorLayout
+	android:id="@+id/rootLayout"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	app:expandedTitleMarginStart="60dp">
+	
+	<android.support.design.widget.AppBarLayout
+	android:layout_width="match_parent"
+	android:layout_height="255dp"
+	android:background="@drawable/darjeeling"
+	android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+	
+	 <android.support.design.widget.CollapsingToolbarLayout
+	android:id="@+id/collapsing_toolbar_layout"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	app:layout_scrollFlags="scroll|exitUntilCollapsed">
+	 
+	<android.support.v7.widget.Toolbar
+	android:id="@+id/toolbar"
+	android:layout_width="match_parent"
+	android:layout_height="?attr/actionBarSize"
+	android:minHeight="?attr/actionBarSize"
+	app:layout_collapseMode="pin"
+	app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+	app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+	
+	</android.support.design.widget.CollapsingToolbarLayout>
+	
+	</android.support.design.widget.AppBarLayout>
+	
+	<android.support.v4.widget.NestedScrollView
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:fillViewport="true"
+	app:layout_behavior="@string/appbar_scrolling_view_behavior">
+	
+	<LinearLayout
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	
+	<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="26dp"
+	android:text="Darjeeling located in the state of West Bengal is situated at an attitude of 6,710 ft in Lesser Himalaya. This UNESCO World Heritage Site is noted for its Darjeeling Himalayan Railways and its famous tea industry. A large number of inhabitants being Buddhist there are lots of old monasteries are present along its length and breadth. The vivid landscapes, tea plantation, eternal weather and the slopes make it one of the most popular tourist destinations of India. Darjeeling is the highest tea exporter and thus, tea tourism in Darjeeling attracts many visitors during the plucking season. In this season one might observe the women in the fields plucking the leaves. The aroma in the hills surrounds international visitors. Darjeeling spread across the area of 3149 sq Km is one of the important shopping centers where visitors can shop for showpieces, clothes handicrafts and showpieces. The tourists in Darjeeling shop for woolen garments, fashion clothes and shawls."
+	android:textColor="#666" />
+	
+	</LinearLayout>
+	</android.support.v4.widget.NestedScrollView>
+	</android.support.design.widget.CoordinatorLayout>
+	
+	</android.support.v4.widget.DrawerLayout>
